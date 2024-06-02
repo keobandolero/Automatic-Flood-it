@@ -74,7 +74,7 @@ def secuenciaColores(matrizClasificada):
         
         # Simular la expansión para cada color adyacente y encontrar el mejor color
         mejorColor = None
-        maxExpansion = -1
+        maxExpansion =  -1
         for color in colores_adyacentes:
             tamanio_expansion = simularExpansion(matrizClasificada, regionConectada, color)
             if tamanio_expansion > maxExpansion:
